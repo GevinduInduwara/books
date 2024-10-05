@@ -1,7 +1,7 @@
 <?php
 // SQLSRV Extension Sample Code (optional, remove if not needed)
 $connectionInfo = array("UID" => "azuresql", "pwd" => "Alpha@0515", "Database" => "abcuni", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "tcp:it21255410.database.windows.net,1433";
+$serverName = "tcp:it21255410abcuni.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 // PDO Connection
