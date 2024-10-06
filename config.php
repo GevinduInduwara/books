@@ -1,6 +1,6 @@
 <?php
 // SQLSRV Extension Sample Code (optional, remove if not needed)
-$connectionInfo = array("UID" => "azuresql", "pwd" => "GI@1234", "Database" => "abcuni", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$connectionInfo = array("UID" => "azuresql", "pwd" => "GI@12345", "Database" => "abcuni", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:it21255410abcuni.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
